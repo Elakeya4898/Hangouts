@@ -1,7 +1,7 @@
 import socket, pdb
 
 MAX_CLIENTS = 30
-PORT = 7010
+PORT = 3000
 QUIT_STRING = '<$quit$>'
 
 
