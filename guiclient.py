@@ -19,7 +19,7 @@ def send(event=None):
     
     msg = my_msg.get()
     my_msg.set("")  
-    if len(msg)>20:
+    if len(msg)>200:
       messagebox.showinfo('Limit Exceeded','Limit Exceeded')
 
       #client_socket.send(bytes(msg, "utf8"))
