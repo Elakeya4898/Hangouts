@@ -16,8 +16,8 @@ def create_socket(address):
 
 class Hall:
     def __init__(self):
-        self.rooms = {} # {room_name: Room}
-        self.room_player_map = {} # {playerName: roomName}
+        self.rooms = {}
+        self.room_player_map = {} 
 
     def welcome_new(self, new_player):
         new_player.socket.sendall('--Group chat--\n')
