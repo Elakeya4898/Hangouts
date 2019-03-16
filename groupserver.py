@@ -6,7 +6,7 @@ READ_BUFFER = 4096
 
 hostname = socket.gethostname()
 IP=socket.gethostbyname(hostname) 
-port=7010
+port=3000
 listen_sock = pychat_util.create_socket((IP, port))
 
 hall = Hall()
