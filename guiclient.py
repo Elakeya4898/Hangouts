@@ -73,9 +73,6 @@ client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client_socket.connect(ADDR)
 
 
-send_thread = Thread(target=send)
-send_thread.start()
-recv_thread = Thread(target=receive)          
-recv_thread.start()
+
 
 tkinter.mainloop() 
